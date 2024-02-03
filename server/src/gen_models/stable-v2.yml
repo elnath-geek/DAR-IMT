@@ -1,0 +1,8 @@
+model_id: "stabilityai/stable-diffusion-2-1-base"
+modelname: stable-diffusion-2-1-base
+install_xformers: True
+state: None
+steps_all: 50
+attn_slicing_enabled: True
+mem_eff_attn_enabled: install_xformers
+attn_slicing: True # Save Memory but increase the speed

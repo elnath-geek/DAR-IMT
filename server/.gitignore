@@ -1,0 +1,7 @@
+/src/projects/*
+/src/old_projects/*
+/src/test_data/banana
+/src/test_data/privacy
+/src/*.zip
+/src/model/*.png
+*.pth

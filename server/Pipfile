@@ -1,0 +1,36 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://download.pytorch.org/whl/"
+verify_ssl = true
+name = "downloadpytorch"
+
+[packages]
+aiohttp = "*"
+aiofiles = "*"
+icecream = "*"
+numpy = "*"
+pillow = "*"
+opencv-python = "*"
+omegaconf = "*"
+torch = {version = "==2.0.1+cu118", index = "downloadpytorch"}
+torchvision = {version = "==0.15.2+cu118", index = "downloadpytorch"}
+diffusers = "*"
+transformers = "*"
+xformers = "*"
+accelerate = "*"
+tqdm = "*"
+torch-summary = "*"
+torcheval = "*"
+matplotlib = "*"
+
+[dev-packages]
+autopep8 = "*"
+flake8 = "*"
+isort = "*"
+
+[requires]
+python_version = "3.10"
