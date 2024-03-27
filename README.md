@@ -10,6 +10,7 @@ Requirement: Node v18.14.2
 
 ```
 cd web
+npm ci
 npm run build
 npm run start
 ```
