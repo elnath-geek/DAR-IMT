@@ -11,8 +11,9 @@ Requirement: Node v18.14.2
 ```
 cd web
 npm ci
+echo "REACT_APP_BASEURL='http://localhost:8080'" > .env
 npm run build
-npm run start
+npm start
 ```
 
 ### Server
@@ -20,6 +21,6 @@ npm run start
 ```
 cd server/src
 pip install pipenv
-python -m pipenv sync
+python -m pipenv install
 python -m pipenv run python app.py
 ```
