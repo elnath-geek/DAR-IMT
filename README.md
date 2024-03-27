@@ -11,7 +11,6 @@ Requirement: Node v18.14.2
 ```
 cd web
 npm ci
-echo "REACT_APP_BASEURL='http://localhost:8080'" > .env
 npm run build
 npm start
 ```
