@@ -16,6 +16,9 @@ npm run build
 npm start
 ```
 
+Please open the link below  
+http://localhost:3000?user=test_user
+
 ### Server
 
 ```
